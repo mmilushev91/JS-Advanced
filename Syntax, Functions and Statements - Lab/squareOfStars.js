@@ -1,10 +1,11 @@
 function solve(starsCount = 5) {
+  let printLine = "";
   
   for (let i = 0; i < starsCount; i++) {
-    let printLine = "";
-    for (let j = 0; j < starsCount; j++) {
-      printLine += "*";
-    }
+    printLine += "*";
+  }
+  
+  for (let i = 0; i < starsCount; i++) {
     console.log(printLine)
   }
 }
